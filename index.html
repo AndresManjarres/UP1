@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Frelancer</title>
+    <!--Link de normalize-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    
+    <!--Enlace hoja de estilos-->
     <link rel="preload" href="css/style.css" as="style">
-    
-    
     <link href="css/style.css" rel="stylesheet">
     
     
@@ -20,16 +24,18 @@
         <h1 class="titulo">Andres Manjarres <span>Frelancer</span> </h1>
     </header>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre Mi</a> 
-        <a href="#">Cliente</a> 
-        <a href="#">Contacto</a> 
-    </nav>
+    <div class="nav-bg">
+      <nav class="navegacion-principal contenedor">
+          <a href="#">Inicio</a>
+          <a href="#">Sobre Mi</a> 
+          <a href="#">Cliente</a> 
+          <a href="#">Contacto</a> 
+      </nav>
+    </div>
 
     <section>
         <!-- Si el primer contenido es un <h1> se usa un section para estructurar-->
-        <h2>Diseño y Desarrollo Web Frelancer</h2>
+        <h2 class="titulo">Diseño y Desarrollo Web Frelancer</h2>
         
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
