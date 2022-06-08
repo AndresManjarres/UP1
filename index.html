@@ -120,40 +120,42 @@
     <section>
         <h2>Contacto</h2>
 
-        <form>
+        <form class="formulario">
           <fieldset>
             <legend>Contactanos llenando todos los campos</legend>
+            <div class="contenedor-campos">
+              <div class="campo">
+                <label>Nombre</label>
+                <input class="input-text" type="text" placeholder="Andres Manjarres">
+              </div>
 
-            <div>
-              <label>Nombre</label>
-              <input type="text" placeholder="Andres Manjarres">
-            </div>
+              <div class="campo">
+                <label>Telefono</label>
+                <input class="input-text" type="tel" placeholder="3176387685">
+              </div>
 
-            <div>
-              <label>Telefono</label>
-              <input type="tel" placeholder="3176387685">
-            </div>
+              <div class="campo">
+                <label>Correo</label>
+                <input class="input-text" type="email" placeholder="Andres@gmail.com">
+              </div>
 
-            <div>
-              <label>Correo</label>
-              <input type="email" placeholder="Andres@gmail.com">
-            </div>
+              <div class="campo">
+                <label>Mensaje</label>
+                <textarea class="input-text" placeholder="Escribe un comentario"></textarea>
+              </div>
+            </div><!--Termina .contenedor-campos-->
 
-            <div>
-              <label>Mensaje</label>
-              <textarea placeholder="Escribe un comentario"></textarea>
-            </div>
-
-            <div>
-              <input type="submit" value="Enviar">
-            </div>
+              <div class="alinear-derecha flex">
+                <input class="boton w-100" type="submit" value="Enviar">
+              </div>
+            
 
           </fieldset>
         </form>
 
     </section>
         
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados. Andres Manjarres Pancho</p>
     </footer>
         
