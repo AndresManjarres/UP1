@@ -11,6 +11,9 @@
 html{
    font-size: 62.5%;
    box-sizing: border-box; /*Para modificar el modelo de cajas*/
+   scroll-snap-type: y mandatory;
+   
+
 }
 *, *:before, *:after {
    box-sizing: inherit;
@@ -146,6 +149,14 @@ h1, h2, h3{
 .ubicacion{
    display: flex;
    align-items: flex-end;
+}
+
+/*SCROLL SNAP*/
+.servicio,
+.navegacion-principal,
+.formulario{
+   scroll-snap-align: center;
+   scroll-snap-stop:always;
 }
 /*Servicios*/
 @media (min-width: 768px) {
